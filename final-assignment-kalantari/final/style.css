@@ -1,0 +1,55 @@
+body{
+    
+    font-family: 'Nixie One', cursive;
+    font-weight: 600;
+}
+h2{
+    font-size: 4.5em;
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+}
+.image-center{
+    margin: 0 auto;
+}
+.flex-column {
+    max-width: 250px;
+  }
+
+  img {
+    margin: 4px;
+  }
+  /* these two body and test solved sticky footer not cover content  */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  #test {
+    background-color: #5d5b5b;
+    flex: 0 0 50px;/*or just height:50px;*/
+    margin-top: auto;
+  }
+  .orange-bg{
+    background-color: #F29C35;
+  }
+  .orange-col{
+    color: #F29C35;
+  }
+  /* removing margin from left and right of image in menu  */
+  .l-r-m-rm{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+/* button style  */
+.btn-sh{
+    border: #5d5b5b 1px solid;
+}
+.btn-sh:hover{
+    background-color: #0e0e0e;
+    color: white;
+}
+.btn-sh-f{
+    background-color: #F29C35;
+    color: white;}
+    
